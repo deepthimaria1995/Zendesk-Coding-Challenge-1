@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="Subscription " />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Bin</title>
+  </head>
+  <body>
+    <script src="subscription.js" type="module"></script>
+    <script src="planDetails.js" type="module"></script>
+    <script src="app.js" type="module" defer></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.6.2/jquery.mockjax.js"></script>
+
+    <div class="alert" id="error">
+      <span id="errorclosebtn" class="closebtn">&times;</span>  
+    </div>
+
+    <div id="load-page">Loading...</div>
+
+    <div id="config-page">
+      <h2 id="heading">Subscription</h2>
+    </div>
+
+    <div id="done-page">
+      <div class="old column">
+        <h4>Previous Subscription</h4>
+        <div class="row">
+          <span class="label">Plan</span>
+          <span class="value" id="old-plan">Good</span>
+        </div>
+        <div class="row">
+          <span class="label">Seats</span>
+          <span class="value" id="old-seats">5</span>
+        </div>
+        <div class="row">
+          <span class="label">Price</span>
+          <span class="value" id="old-cost">$50</span>
+        </div>
+      </div>
+
+      <div class="new column">
+        <h4>Updated Subscription</h4>
+        <div class="row">
+          <span class="label">Plan</span>
+          <span class="value" id="new-plan">Better</span>
+        </div>
+        <div class="row">
+          <span class="label">Seats</span>
+          <span class="value" id="new-seats">5</span>
+        </div>
+        <div class="row">
+          <span class="label">Price</span>
+          <span class="value" id="new-cost">$100</span>
+        </div>
+      </div>
+      <div class="done-page-button-section">
+        <button id="back">Back</button>
+      </div>
+    </div>
+  </body>
+</html>

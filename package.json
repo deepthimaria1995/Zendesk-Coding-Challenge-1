@@ -1,0 +1,19 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepthimaria1995/project1.git"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepthimaria1995/project1/issues"
+  },
+  "homepage": "https://github.com/deepthimaria1995/project1#readme"
+}
